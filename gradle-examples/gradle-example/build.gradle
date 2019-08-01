@@ -2,7 +2,7 @@ buildscript {
     repositories {
         mavenLocal()
         maven {
-            url "https://artifactory.coxautoinc.com/artifactory/${System.env.GRADLE_DEPENDENCY_REPO}/"
+            url "http://10.128.1.38:8081/artifactory/${System.env.GRADLE_DEPENDENCY_REPO}/"
             credentials {
                 username = project.properties['artifactory_user'] ?: "${System.env.artifactory_user}"
                 password = project.properties['artifactory_password'] ?: "${System.env.artifactory_password}"
