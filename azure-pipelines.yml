@@ -10,6 +10,13 @@ steps:
   inputs:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
+
+- task: ArtifactoryGenericDownload@3
+  inputs:
+    connection: 'divija'
+    specSource: 'file'
+    file: 'npm-local/project-examples-master_npm-example_package.json'
+    failNoOp: true
 - task: ArtifactoryNpm@2
   inputs:
     command: 'install'
@@ -19,4 +26,4 @@ steps:
     threads: '1'
     buildName: '$(Build.DefinitionName)'
     buildNumber: '$(Build.BuildNumber)'
-    workingFolder: 'npm-example'
+    workingFolder: 'npm-local/project-examples-master_npm-example_package.json'
