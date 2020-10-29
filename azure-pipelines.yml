@@ -19,4 +19,4 @@ steps:
     threads: '1'
     buildName: '$(Build.DefinitionName)'
     buildNumber: '$(Build.BuildNumber)'
-    workingFolder: '/npm-example'
+    workingFolder: 'npm-example'
