@@ -15,4 +15,3 @@ steps:
     command: 'install'
     artifactoryService: 'divija'
     sourceRepo: 'npm'
-    workingFolder: 'npm-example/'
