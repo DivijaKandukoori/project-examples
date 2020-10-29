@@ -15,3 +15,8 @@ steps:
     command: 'install'
     artifactoryService: 'divija'
     sourceRepo: 'npm'
+    collectBuildInfo: true
+    threads: '1'
+    buildName: '$(Build.DefinitionName)'
+    buildNumber: '$(Build.BuildNumber)'
+    workingFolder: '/1/s/npm-example'
