@@ -7,9 +7,9 @@
         <version>3.7-SNAPSHOT</version>
     </parent>
 
-    <artifactId>multi##1</artifactId>
+    <artifactId>multi1</artifactId>
     <packaging>jar</packaging>
-    <name>Multi 1</name>
+    <name>Multi##1</name>
 
     <licenses>
         <license>
