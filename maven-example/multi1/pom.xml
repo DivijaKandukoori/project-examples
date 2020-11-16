@@ -4,12 +4,12 @@
     <parent>
         <groupId>org.jfrog.test</groupId>
         <artifactId>multi</artifactId>
-        <version>3.7-SNAPSHOT</version>
+        <version>3.7.3#-SNAPSHOT</version>
     </parent>
 
     <artifactId>multi1</artifactId>
     <packaging>jar</packaging>
-    <name>Multi##1</name>
+    <name>Multi1</name>
 
     <licenses>
         <license>
